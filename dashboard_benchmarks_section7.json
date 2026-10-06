@@ -1,0 +1,56 @@
+{
+  "Panel 1 (Network Demand)": {
+    "raw_median": 337.76,
+    "raw_min": 325.64,
+    "raw_max": 405.94,
+    "cagg_median": 3.51,
+    "cagg_min": 3.26,
+    "cagg_max": 3.86,
+    "speedup": 96.1
+  },
+  "Panel 2 (Regional Comparison)": {
+    "raw_median": 424.85,
+    "raw_min": 417.55,
+    "raw_max": 466.14,
+    "cagg_median": 2.76,
+    "cagg_min": 2.51,
+    "cagg_max": 2.95,
+    "speedup": 154.2
+  },
+  "Panel 3 (Customer Breakdown)": {
+    "raw_median": 422.79,
+    "raw_min": 417.33,
+    "raw_max": 455.29,
+    "cagg_median": 25.34,
+    "cagg_min": 24.68,
+    "cagg_max": 26.96,
+    "speedup": 16.7
+  },
+  "Panel 4 (Top Peak Intervals)": {
+    "raw_median": 241.26,
+    "raw_min": 234.1,
+    "raw_max": 256.47,
+    "cagg_median": 6.56,
+    "cagg_min": 6.25,
+    "cagg_max": 7.12,
+    "speedup": 36.8
+  },
+  "Panel 5 (Meter History)": {
+    "raw_median": 3.75,
+    "raw_min": 3.55,
+    "raw_max": 5.74,
+    "cagg_median": 1.67,
+    "cagg_min": 1.47,
+    "cagg_max": 1.85,
+    "speedup": 2.2
+  },
+  "Whole Dashboard": {
+    "raw_median": 1445.17,
+    "raw_min": 1402.63,
+    "raw_max": 1486.8,
+    "cagg_median": 40.0,
+    "cagg_min": 38.68,
+    "cagg_max": 42.05,
+    "speedup": 36.1
+  }
+}

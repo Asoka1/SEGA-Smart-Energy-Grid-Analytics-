@@ -1,0 +1,26 @@
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg16
+    container_name: timescaledb
+    environment:
+      POSTGRES_PASSWORD: password
+      TZ: Africa/Kigali
+      PGTZ: Africa/Kigali
+    ports:
+      - "5432:5432"
+    volumes:
+      - tsdata:/var/lib/postgresql/data
+  emqx:
+    image: emqx/emqx:latest
+    container_name: emqx
+    environment:
+      TZ: Africa/Kigali
+      EMQX_MQTT__MAX_MQUEUE_LEN: 100000
+    ports:
+      - "1883:1883"
+      - "18083:18083"
+    volumes:
+      - emqxdata:/opt/emqx/data
+volumes:
+  tsdata:
+  emqxdata:

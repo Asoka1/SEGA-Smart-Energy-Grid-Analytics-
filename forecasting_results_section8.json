@@ -1,0 +1,195 @@
+{
+  "validation_table": [
+    {
+      "id": "Config 1",
+      "name": "Ridge Regression",
+      "settings": "alpha=10.0, L2 penalty",
+      "train_rows": 1680,
+      "val_rows": 1680,
+      "val_mae": 4.3782,
+      "val_rmse": 5.5604
+    },
+    {
+      "id": "Config 2",
+      "name": "Random Forest",
+      "settings": "n_estimators=100, max_depth=12",
+      "train_rows": 1680,
+      "val_rows": 1680,
+      "val_mae": 4.9901,
+      "val_rmse": 6.3886
+    }
+  ],
+  "selected_model": "Ridge Regression",
+  "overall_evaluation": {
+    "baseline_mae": 42.7083,
+    "baseline_rmse": 79.4029,
+    "model_mae": 4.5158,
+    "model_rmse": 5.7448,
+    "mae_improvement_pct": 89.43,
+    "rmse_improvement_pct": 92.76
+  },
+  "regional_metrics": {
+    "Region 1": {
+      "base_mae": 44.87,
+      "model_mae": 4.57,
+      "base_rmse": 83.7,
+      "model_rmse": 5.72,
+      "mae_imp": 89.82
+    },
+    "Region 10": {
+      "base_mae": 39.72,
+      "model_mae": 4.17,
+      "base_rmse": 74.28,
+      "model_rmse": 5.32,
+      "mae_imp": 89.49
+    },
+    "Region 2": {
+      "base_mae": 41.63,
+      "model_mae": 4.46,
+      "base_rmse": 76.81,
+      "model_rmse": 5.58,
+      "mae_imp": 89.29
+    },
+    "Region 3": {
+      "base_mae": 42.75,
+      "model_mae": 4.37,
+      "base_rmse": 77.61,
+      "model_rmse": 5.69,
+      "mae_imp": 89.77
+    },
+    "Region 4": {
+      "base_mae": 34.86,
+      "model_mae": 3.99,
+      "base_rmse": 64.23,
+      "model_rmse": 4.98,
+      "mae_imp": 88.57
+    },
+    "Region 5": {
+      "base_mae": 44.4,
+      "model_mae": 5.15,
+      "base_rmse": 81.08,
+      "model_rmse": 6.53,
+      "mae_imp": 88.4
+    },
+    "Region 6": {
+      "base_mae": 39.43,
+      "model_mae": 3.74,
+      "base_rmse": 74.77,
+      "model_rmse": 4.71,
+      "mae_imp": 90.52
+    },
+    "Region 7": {
+      "base_mae": 39.69,
+      "model_mae": 4.33,
+      "base_rmse": 73.94,
+      "model_rmse": 5.63,
+      "mae_imp": 89.08
+    },
+    "Region 8": {
+      "base_mae": 55.97,
+      "model_mae": 5.73,
+      "base_rmse": 102.06,
+      "model_rmse": 7.19,
+      "mae_imp": 89.76
+    },
+    "Region 9": {
+      "base_mae": 43.77,
+      "model_mae": 4.65,
+      "base_rmse": 80.18,
+      "model_rmse": 5.71,
+      "mae_imp": 89.38
+    }
+  },
+  "peak_analysis": [
+    {
+      "region": "Region 1",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 835.61,
+      "baseline_pred": 565.27,
+      "baseline_err": 270.34,
+      "model_pred": 827.71,
+      "model_err": 7.9
+    },
+    {
+      "region": "Region 10",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 743.03,
+      "baseline_pred": 502.33,
+      "baseline_err": 240.71,
+      "model_pred": 735.74,
+      "model_err": 7.3
+    },
+    {
+      "region": "Region 2",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 780.13,
+      "baseline_pred": 546.91,
+      "baseline_err": 233.21,
+      "model_pred": 774.2,
+      "model_err": 5.92
+    },
+    {
+      "region": "Region 3",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 783.0,
+      "baseline_pred": 554.69,
+      "baseline_err": 228.32,
+      "model_pred": 790.5,
+      "model_err": 7.5
+    },
+    {
+      "region": "Region 4",
+      "peak_hour": "2026-09-28 18:00:00+02:00",
+      "actual_kwh": 659.9,
+      "baseline_pred": 561.41,
+      "baseline_err": 98.5,
+      "model_pred": 656.92,
+      "model_err": 2.99
+    },
+    {
+      "region": "Region 5",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 828.23,
+      "baseline_pred": 577.36,
+      "baseline_err": 250.87,
+      "model_pred": 826.54,
+      "model_err": 1.69
+    },
+    {
+      "region": "Region 6",
+      "peak_hour": "2026-09-28 13:00:00+02:00",
+      "actual_kwh": 749.11,
+      "baseline_pred": 504.41,
+      "baseline_err": 244.7,
+      "model_pred": 732.13,
+      "model_err": 16.98
+    },
+    {
+      "region": "Region 7",
+      "peak_hour": "2026-09-25 13:00:00+02:00",
+      "actual_kwh": 751.05,
+      "baseline_pred": 736.64,
+      "baseline_err": 14.41,
+      "model_pred": 744.2,
+      "model_err": 6.85
+    },
+    {
+      "region": "Region 8",
+      "peak_hour": "2026-09-25 13:00:00+02:00",
+      "actual_kwh": 1016.55,
+      "baseline_pred": 1010.53,
+      "baseline_err": 6.02,
+      "model_pred": 1015.01,
+      "model_err": 1.55
+    },
+    {
+      "region": "Region 9",
+      "peak_hour": "2026-09-23 13:00:00+02:00",
+      "actual_kwh": 808.96,
+      "baseline_pred": 796.89,
+      "baseline_err": 12.07,
+      "model_pred": 805.11,
+      "model_err": 3.85
+    }
+  ]
+}

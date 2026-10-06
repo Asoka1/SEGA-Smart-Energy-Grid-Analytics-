@@ -1,0 +1,94 @@
+{
+  "demand_patterns": {
+    "period_totals_kwh": {
+      "Period 1 (1 - 7 Sep)": 934199.060635126,
+      "Period 2 (8 - 14 Sep)": 953714.9720099006,
+      "Period 3 (15 - 21 Sep)": 973230.0264213197,
+      "Period 4 (22 - 28 Sep)": 992560.2877496311
+    },
+    "top_3_peaks": [
+      {
+        "rank": 1,
+        "event_time": "2026-09-28 13:00:00+02:00",
+        "power_kw": 7993.691473999999
+      },
+      {
+        "rank": 2,
+        "event_time": "2026-09-28 12:45:00+02:00",
+        "power_kw": 7943.946545000018
+      },
+      {
+        "rank": 3,
+        "event_time": "2026-09-28 13:15:00+02:00",
+        "power_kw": 7943.63573599999
+      }
+    ]
+  },
+  "regional_ranking": [
+    {
+      "region": "Region 8",
+      "total_energy_kwh": 503475.8288910154,
+      "meters": 400
+    },
+    {
+      "region": "Region 5",
+      "total_energy_kwh": 411040.3935138324,
+      "meters": 400
+    },
+    {
+      "region": "Region 9",
+      "total_energy_kwh": 400467.1950206031,
+      "meters": 400
+    },
+    {
+      "region": "Region 3",
+      "total_energy_kwh": 392376.5939507818,
+      "meters": 400
+    },
+    {
+      "region": "Region 1",
+      "total_energy_kwh": 383539.80515543395,
+      "meters": 400
+    },
+    {
+      "region": "Region 2",
+      "total_energy_kwh": 378448.8880995585,
+      "meters": 400
+    },
+    {
+      "region": "Region 7",
+      "total_energy_kwh": 362288.5437598049,
+      "meters": 400
+    },
+    {
+      "region": "Region 10",
+      "total_energy_kwh": 351149.7836082631,
+      "meters": 400
+    },
+    {
+      "region": "Region 6",
+      "total_energy_kwh": 346512.83738736756,
+      "meters": 400
+    },
+    {
+      "region": "Region 4",
+      "total_energy_kwh": 324404.47742934513,
+      "meters": 400
+    }
+  ],
+  "reporting_quality": {
+    "network_completeness_pct": 98.99307105654762,
+    "sep21_timely_kwh": 149400.54453151018,
+    "sep21_all_kwh": 149552.7228535702,
+    "sep21_diff_kwh": 152.17832206000458,
+    "sep21_diff_pct": 0.10175563450556842
+  },
+  "anomaly_evaluation": {
+    "total_injected": 40,
+    "detected": 24,
+    "missed": 16,
+    "false_flags": 0,
+    "false_flag_pct": 0.0,
+    "meters_affected_pct": 0.0
+  }
+}

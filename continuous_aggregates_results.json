@@ -1,0 +1,46 @@
+{
+  "cagg_refreshes": {
+    "cagg_energy_15m_region": {
+      "elapsed_sec": 33.51,
+      "size_before": "0 bytes",
+      "size_after": "0 bytes"
+    },
+    "cagg_energy_hourly_region": {
+      "elapsed_sec": 19.7,
+      "size_before": "0 bytes",
+      "size_after": "0 bytes"
+    },
+    "cagg_energy_daily_meter": {
+      "elapsed_sec": 7.75,
+      "size_before": "0 bytes",
+      "size_after": "0 bytes"
+    }
+  },
+  "timeline_test": {
+    "test_time_cat": "2026-10-06T10:58:51.045378+02:00",
+    "H": "2026-10-06T10:00:00+02:00",
+    "H_minus_48": "2026-10-04T10:00:00+02:00",
+    "stages": [
+      {
+        "stage": "Stage 1: Initial older-hour refresh, real-time off",
+        "older_hour": "1.0 kWh, 1 rows",
+        "hour_H": "No bucket returned"
+      },
+      {
+        "stage": "Stage 2: After both new inserts, before refresh, real-time off",
+        "older_hour": "1.0 kWh, 1 rows",
+        "hour_H": "No bucket returned"
+      },
+      {
+        "stage": "Stage 3: Real-time on, still before refresh",
+        "older_hour": "1.0 kWh, 1 rows",
+        "hour_H": "2.0 kWh, 1 rows"
+      },
+      {
+        "stage": "Stage 4: After manual refresh of both hours",
+        "older_hour": "1.5 kWh, 2 rows",
+        "hour_H": "2.0 kWh, 1 rows"
+      }
+    ]
+  }
+}

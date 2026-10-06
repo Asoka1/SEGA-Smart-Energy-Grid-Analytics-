@@ -1,0 +1,75 @@
+{
+  "storage": {
+    "baseline_total_mb": 1435.52,
+    "unseg_total_mb": 438.96,
+    "unseg_ratio": 3.27,
+    "unseg_savings_pct": 69.42,
+    "unseg_cost_sec": 24.65,
+    "seg_total_mb": 501.88,
+    "seg_ratio": 2.86,
+    "seg_savings_pct": 65.04,
+    "seg_cost_sec": 89.16
+  },
+  "benchmarks": {
+    "Q1": {
+      "energy_readings_unsegmented": {
+        "median_ms": 109.57,
+        "min_ms": 107.43,
+        "max_ms": 118.81
+      },
+      "energy_readings_segmented": {
+        "median_ms": 780.56,
+        "min_ms": 762.37,
+        "max_ms": 834.23
+      }
+    },
+    "Q2": {
+      "energy_readings_unsegmented": {
+        "median_ms": 210.47,
+        "min_ms": 205.55,
+        "max_ms": 215.51
+      },
+      "energy_readings_segmented": {
+        "median_ms": 109.66,
+        "min_ms": 96.93,
+        "max_ms": 129.23
+      }
+    },
+    "Q3": {
+      "energy_readings_unsegmented": {
+        "median_ms": 378.33,
+        "min_ms": 349.32,
+        "max_ms": 498.2
+      },
+      "energy_readings_segmented": {
+        "median_ms": 231.29,
+        "min_ms": 211.6,
+        "max_ms": 242.85
+      }
+    },
+    "Q4": {
+      "energy_readings_unsegmented": {
+        "median_ms": 66.32,
+        "min_ms": 62.61,
+        "max_ms": 71.71
+      },
+      "energy_readings_segmented": {
+        "median_ms": 6.16,
+        "min_ms": 4.21,
+        "max_ms": 6.84
+      }
+    },
+    "Q5": {
+      "energy_readings_unsegmented": {
+        "median_ms": 440.36,
+        "min_ms": 362.57,
+        "max_ms": 537.98
+      },
+      "energy_readings_segmented": {
+        "median_ms": 348.4,
+        "min_ms": 342.23,
+        "max_ms": 356.59
+      }
+    }
+  }
+}
